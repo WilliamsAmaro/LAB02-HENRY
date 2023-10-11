@@ -89,7 +89,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
   ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/KPI_1.png)
   _Nota: El gráfico de barras ilustra la evolución del ratio de crew fatalities en accidentes aéreos a lo largo de diferentes décadas desde 1901 hasta la actualidad. Se observa un patrón interesante: el ratio comenzó en 0 durante la década de 1901-1910, lo que podría indicar un inicio relativamente seguro de la aviación. Sin embargo, a medida que avanzamos en el tiempo, el ratio aumentó constantemente hasta la década de 1970, alcanzando su punto máximo. A partir de entonces, se estabilizó, pero en un nivel significativamente superior al inicio. Este análisis subraya la importancia continua de mejorar la seguridad en la industria de la aviación, a pesar de los avances tecnológicos y las regulaciones de seguridad implementadas._
 
-  ___Ingesta de la data Aa MySQL___
+  ___Ingesta de la data a MySQL___
   ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/CAPTURAMYSQL.png)
 
 ### **DASHBOARD E INSIGTHS**
@@ -99,5 +99,5 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 - Década de Referencia (2001-2010): Comenzamos nuestra evaluación considerando la década de 2001 a 2010. Durante este período, la tasa de fatalidad de la tripulación se mantuvo en un nivel significativo de 3.24. Esta cifra se utiliza como referencia para evaluar la década siguiente.
 - Década 2011-2020 (Expectativa de Reducción del 10%): Dentro de la década de 2011 a 2020, se esperaba una disminución del 10% en la tasa de fatalidad de la tripulación en comparación con la década anterior. Sin embargo, los datos revelan un aumento inesperado en esta métrica. La tasa de fatalidad de la tripulación para esta década ascendió a 3.68, lo que indica una tendencia preocupante.
 - Evaluación del KPI: El KPI (Indicador Clave de Desempeño) que utilizamos para evaluar la tasa de fatalidad por década, denominado "KPI_por_decada," refleja la suma de fatalidades de la tripulación en una década dividida por la cantidad de incidentes en esa década. A pesar de la expectativa de reducción, el KPI ha experimentado un aumento en la última década.
-  ![]()
+  ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/Dashboard1.png)
 - Conclusión: La seguridad de la aviación es de suma importancia, y la tasa de fatalidad de la tripulación es un indicador crucial en este contexto. A pesar de la expectativa de reducción del 10%, hemos observado un aumento en la tasa de fatalidad de la tripulación en la última década en comparación con la década anterior. Esto resalta la necesidad de un análisis más profundo y medidas adicionales para mejorar la seguridad en la industria de la aviación. Este análisis pone de manifiesto la complejidad y la importancia de evaluar y abordar los problemas de seguridad en la aviación, con el objetivo de proteger a las tripulaciones y a los pasajeros.
