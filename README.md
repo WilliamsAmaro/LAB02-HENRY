@@ -110,6 +110,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 |2001-2010|	1570|	484|	3.243|	0|
 |2011-2020|	759|	206|	3.684|	0|
 |2021-2030|	20|	7|	2.857|	1|
+|----|----|----|----|----|
 _Nota: Como se observa en la tabla solo hubo una reducción del 10% entre la década del 80 respecto a la década del 70._
 
 ![image](https://github.com/WilliamsAmaro/LAB02-HENRY/assets/131495435/1e77b0d9-c1a4-4dd8-81af-a767a4449d91)
