@@ -10,6 +10,7 @@ Asimismo, a partir de los objetivos propuestos se dispone a relacionar los KPI c
 
 #### ETL
 En el notebook ETL, se observa la importación de dataset Accidentes como dataframe y se empieza a hacer una limpieza.
+
 **1. Objetivo:**
 - Visualizar la naturaleza de las variables (categóricas o numéricas).
 - Creación de nuevas variables a partir de variables origen del dataset inicial.
