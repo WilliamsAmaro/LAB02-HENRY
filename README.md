@@ -15,10 +15,10 @@ Asimismo, a partir de los objetivos propuestos se dispone a relacionar los KPI c
 - ruta: La ruta del vuelo.
 - operador: El operador del vuelo, generalmente la aerolínea.
 - flight_no: El número de vuelo.
-- route: Otra columna que indica la ruta del vuelo. Podría ser similar a la columna “Ruta”.
+- route: Otra columna que indica la ruta del vuelo.
 - ac_type: El tipo de aeronave involucrada en el accidente.
 - registration: El número de registro de la aeronave.
-- cn_ln: Probablemente se refiere al número de serie del constructor o al número de línea, que son identificadores únicos para la aeronave.
+- cn_ln: Número de serie del constructor o al número de línea, que son identificadores únicos para la aeronave.
 - all_aboard: El número total de personas a bordo del avión.
 - pasajeros a bordo: El número de pasajeros a bordo del avión (excluyendo la tripulación).
 - crew_aboard: El número de miembros de la tripulación a bordo del avión.
@@ -31,7 +31,7 @@ Asimismo, a partir de los objetivos propuestos se dispone a relacionar los KPI c
 #### **ETL**
 En el notebook [ETL](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/ETL.ipynb), se observa la importación de dataset Accidentes como dataframe y se empieza a hacer una limpieza.
 
-**1. Objetivo:**
+**1. Objetivos:**
 - Visualizar la naturaleza de las variables (categóricas o numéricas).
 - Crear nuevas variables a partir de variables origen del dataset inicial.
 
@@ -54,7 +54,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
   
   **2. Trabajo**
   
-  Con describe:
+  Con la función describe:
 - _Tamaño del Conjunto de Datos: El conjunto de datos consta de 5008 observaciones. Sin embargo, algunas columnas tienen valores faltantes, como "PASAJEROS A BORDO" y "crew aboard," lo que indica que no todas las observaciones tienen información completa en esas columnas._
 - _Variables Dummy (Military y Comercial): Las variables dummy "Military" y "Comercial" indican si un accidente está asociado con vuelos militares o comerciales. Los valores promedio muestran que la mayoría de los accidentes en el conjunto de datos están relacionados con vuelos comerciales en lugar de vuelos militares._
 - _En promedio, hay alrededor de 31 personas a bordo de una aeronave, con un valor medio de 4.52 tripulantes a bordo. La cantidad promedio de fallecidos es de aproximadamente 22.29, con 18.94 fallecidos entre los pasajeros y 3.59 entre la tripulación._
@@ -124,6 +124,6 @@ _Nota: Como se observa en la tabla solo hubo una reducción del 10% entre la dé
 **Tasa de supervivencia** En este análisis se evalúa el aumento en un 10% de la tasa de supervivencia de la tripulación en los últimos 10 años en comparación con la década anterior. Indica la relación de sobrevivientes sobre el total de personas a bordo.
 - Década de Referencia (2001-2010) - (KPI 0.31): En la década de 2001 a 2010, el KPI revela que hubo una tasa de supervivencia de la tripulación del 31%, que es una referencia para nuestra evaluación. Esta década vio una combinación de operadores de vuelo, pero un elemento interesante es que los accidentes con operadores militares eran prominentes en esta época.
 - Década a Evaluar (2011-2020)- [KPI 0.28 (Baja Supervivencia)]: Se observa que el KPI es del 0.28, lo que indica que la tasa de supervivencia de la tripulación disminuyó en comparación con la década anterior. Asimismo, los accidentes relacionados con operadores comerciales son más notables en esta década.
-- Top 5 de Operadores Principales:Durante la década de 2001 a 2010, los operadores militares encabezaron la lista. Esto puede estar relacionado con las operaciones militares y los riesgos asociados con ellas (responde posiblemente a las disputas bélicas entre USA y el oriente; incluyendo el atentado de la torres gemelas). Sin embargo, en la década de 2011 a 2020, los operadores comerciales ocuparon las primeras posiciones (mostrando la normalidad de que los sucesos de accidentes suelen ser dados en el sector de aerolíneas comerciales). Asimismo, esta transición de operadores militares a comerciales podría estar influenciada por varios factores, como el aumento de vuelos comerciales o cambios en las regulaciones y estándares de seguridad.
+- Top 5 de Operadores Principales: Durante la década de 2001 a 2010, los operadores militares encabezaron la lista. Esto puede estar relacionado con las operaciones militares y los riesgos asociados con ellas (responde posiblemente a las disputas bélicas entre USA y el oriente; incluyendo el atentado de la torres gemelas). Sin embargo, en la década de 2011 a 2020, los operadores comerciales ocuparon las primeras posiciones (mostrando la normalidad de que los sucesos de accidentes suelen ser dados en el sector de aerolíneas comerciales). Asimismo, esta transición de operadores militares a comerciales podría estar influenciada por varios factores, como el aumento de vuelos comerciales o cambios en las regulaciones y estándares de seguridad.
 ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/Dashboard2.png)
-- Conlusion: Estos resultados resaltan la importancia de monitorear y mejorar constantemente la seguridad en la industria de la aviación. También subrayan la necesidad de investigaciones más profundas para comprender por qué la tasa de supervivencia de la tripulación disminuyó en la última década, lo que podría ayudar a impulsar futuras mejoras en la seguridad de vuelo
+- Conlusion: Estos resultados resaltan la importancia de monitorear y mejorar constantemente la seguridad en la industria de la aviación. También subrayan la necesidad de investigaciones más profundas para comprender por qué la tasa de supervivencia de la tripulación disminuyó en la última década, lo que podría ayudar a impulsar futuras mejoras en la seguridad de vuelo y si es posible visualizar el ___impacto de la INTELIGENCIA ARTIFICIAL EN LA INDUSTRIA DE LAS AEROLÍNEAS___.
