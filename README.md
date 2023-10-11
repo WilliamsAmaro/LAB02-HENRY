@@ -66,17 +66,17 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 - _Correlación Perfectamente Negativa entre Categorías Militares y Comerciales (-1.0): La matriz muestra una correlación perfectamente negativa entre las categorías de vuelos militares y comerciales, lo que significa que las observaciones se dividen claramente en dos categorías mutuamente excluyentes. Esto es importante para distinguir entre vuelos militares y comerciales en el análisis._
 - _Hora del Accidente con Correlación Muy Débil (0.015154): La hora del accidente tiene una correlación muy débil con las categorías de vuelos militares y comerciales. Esto indica que la hora del accidente no está fuertemente relacionada con el tipo de operación y, por lo tanto, es menos relevante en ese contexto._
 
-  Frecuencias:
+  __Frecuencias:__
 
-  _Número de accidentes por año_
+  ___Número de accidentes por año___
   ![Imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/AccidentesA%C3%B1o.png)
   _Nota: Se puede observar que la cantidad de accidentes alcanzan una frecuencia mayor en la década de 1940-1950, periodo que coincide con la 2da guerra mundial, asimismo, esta frecuencia se mantiene casi constante lo cual coincidiría con el periodo de la guerra fría._
 
-  _Relación accidentes Militares y Comerciales_
+  ___Relación accidentes Militares y Comerciales___
   ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/RelacionMyC.png)
   _Nota: En el gráfico se observa la distribución de accidentes aéreos por su origen durante el período de 1908 a 2021. Los datos revelan que los accidentes de origen militar constituyen el 15.2% del total, mientras que los accidentes de origen comercial representan el 84.8%. Esto sugiere que la aviación comercial es un sector de alta actividad y que las aerolíneas comerciales enfrentan una mayor cantidad de incidentes en comparación con su contraparte militar; sin dejando de lado que la proporción de accidentes de origen militar fueron ocasionados por la guerra o entrenamientos militares (siendo el siglo XX una época muy belicosa). En conlusión, se ha visto como la industría de la aerolínea comercial ha avasallado a los accidentes de origen militar, por lo que se subraya la necesidad constante de mejorar la seguridad en la aviación comercial. Estos insights son esenciales para garantizar que la seguridad siga siendo una prioridad en la industria de la aviación._
 
-  _Summary (registro del accidente)_
+  ___Summary (registro del accidente)___
   ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/Summary.png)
   _Nota: El gráfico proporciona pistas valiosas sobre las causas predominantes de los accidentes aéreos. Al analizar los términos más frecuentemente asociados con los accidentes, como "crashed," "aircraft," "plane," "crew," "flight," "pilot," "runway," "engine," "approach," y "failure," podemos extrapolar y comprender mejor las posibles causas subyacentes._
 - _Accidentes de Vuelo: La alta frecuencia de términos como "flight," "pilot," "aircraft," y "plane" sugiere que los problemas relacionados con la operación de aeronaves y - la labor de los pilotos son causas frecuentes de accidentes._
@@ -84,3 +84,12 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 - _Factores Humanos: Los términos "crew" y "runway" sugieren que factores humanos, incluyendo errores de la tripulación y problemas en el despegue o aterrizaje, también pueden desempeñar un papel importante._
 - _Problemas en la Aproximación: La inclusión de "approach" señala que los problemas en la fase de aproximación al aterrizaje pueden ser una causa común de accidentes._
 - _Tipo de Aeronave: Los términos "aircraft" y "plane" sugieren que el tipo de aeronave utilizada puede influir en la probabilidad de accidentes._
+
+  ___Tasa de Fatalidad por década___
+  ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/KPI_1.png)
+  _Nota: El gráfico de barras ilustra la evolución del ratio de crew fatalities en accidentes aéreos a lo largo de diferentes décadas desde 1901 hasta la actualidad. Se observa un patrón interesante: el ratio comenzó en 0 durante la década de 1901-1910, lo que podría indicar un inicio relativamente seguro de la aviación. Sin embargo, a medida que avanzamos en el tiempo, el ratio aumentó constantemente hasta la década de 1970, alcanzando su punto máximo. A partir de entonces, se estabilizó, pero en un nivel significativamente superior al inicio. Este análisis subraya la importancia continua de mejorar la seguridad en la industria de la aviación, a pesar de los avances tecnológicos y las regulaciones de seguridad implementadas._
+
+  ___Ingesta de la data Aa MySQL___
+  ![imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/CAPTURAMYSQL.png)
+
+### **DASHBOARD E INSIGTHS**
