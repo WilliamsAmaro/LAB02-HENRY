@@ -8,7 +8,7 @@ Para ello se presentan los siguientes objetivos:
 
 Asimismo, a partir de los objetivos propuestos se dispone a relacionar los KPI con otra variables del [dataset](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/Accidentes.csv).
 
-Claro, puedo ayudarte con eso. Aquí está el significado de cada columna en tu conjunto de datos de accidentes aéreos:
+**Variables en el dataset:**
 
 - fecha: La fecha en que ocurrió el accidente aéreo.
 - hora declarada: La hora declarada del accidente.
