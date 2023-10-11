@@ -28,12 +28,12 @@ Claro, puedo ayudarte con eso. Aquí está el significado de cada columna en tu 
 - ground: El número de personas en tierra que murieron como resultado del accidente.
 - summary: Un resumen o descripción del accidente.
 
-#### ETL
+#### **ETL**
 En el notebook ETL, se observa la importación de dataset Accidentes como dataframe y se empieza a hacer una limpieza.
 
 **1. Objetivo:**
 - Visualizar la naturaleza de las variables (categóricas o numéricas).
-- Creación de nuevas variables a partir de variables origen del dataset inicial.
+- Crear nuevas variables a partir de variables origen del dataset inicial.
 
 **2. Cambios:** Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, Sobrevivientes, Sobrevivientes pasajeros, dummies (Military y Comercial).
 - Año: A partir de fecha, se crea esta columna para facilitar el análisis y la visualización posterior.
@@ -43,4 +43,22 @@ En el notebook ETL, se observa la importación de dataset Accidentes como datafr
 - Sobrevivientes: A partir de la diferencia de Cantidad de fallecidos respecto a la cantidad registrada de tripulantes (all_aboard)
 - SObrevivientes pasajero: Similiar a sobrevivientes, pero restringe solo los sobrevivientes que son pasajeros.
 - Dummies (Military y Comercial): A partir de Operador se observó una tendencia (palabra: Military) y se dispuso a generar dummies de aquellos valores que continenen o no la palabra Military.
+
+  #### **EDA**
+  En el notebook EDA, se observa el análisis exploratorio de las variables del dataset, a modo de obtener insights.
+
+  **1. Objetivo**
+  - Vizualizar el tipo y comportamiento de las variables y entre variables (incluyendo frecuencia).
+  - Crear un csv con los cambios efectuados.
+  **2. Trabajo**
+  Con describe:
+- _Tamaño del Conjunto de Datos: El conjunto de datos consta de 5008 observaciones. Sin embargo, algunas columnas tienen valores faltantes, como "PASAJEROS A BORDO" y "crew aboard," lo que indica que no todas las observaciones tienen información completa en esas columnas._
+- _Variables Dummy (Military y Comercial): Las variables dummy "Military" y "Comercial" indican si un accidente está asociado con vuelos militares o comerciales. Los valores promedio muestran que la mayoría de los accidentes en el conjunto de datos están relacionados con vuelos comerciales en lugar de vuelos militares._
+- _En promedio, hay alrededor de 31 personas a bordo de una aeronave, con un valor medio de 4.52 tripulantes a bordo. La cantidad promedio de fallecidos es de aproximadamente 22.29, con 18.94 fallecidos entre los pasajeros y 3.59 entre la tripulación._
+
+  Correlación:
+_La matriz de correlación muestra la relación entre las diferentes variables en nuestro conjunto de datos._
+- _Correlación Negativa entre Tripulantes Fallecidos y Vuelos Comerciales (-0.274762): Hay una correlación negativa entre la cantidad de tripulantes fallecidos y la categoría de vuelos comerciales. Esto podría indicar que los accidentes con tripulantes fallecidos tienden a estar menos relacionados con vuelos comerciales y podrían estar más asociados con operaciones militares u otros tipos de vuelos._
+- _Correlación Perfectamente Negativa entre Categorías Militares y Comerciales (-1.0): La matriz muestra una correlación perfectamente negativa entre las categorías de vuelos militares y comerciales, lo que significa que las observaciones se dividen claramente en dos categorías mutuamente excluyentes. Esto es importante para distinguir entre vuelos militares y comerciales en el análisis._
+- _Hora del Accidente con Correlación Muy Débil (0.015154): La hora del accidente tiene una correlación muy débil con las categorías de vuelos militares y comerciales. Esto indica que la hora del accidente no está fuertemente relacionada con el tipo de operación y, por lo tanto, es menos relevante en ese contexto._
   
