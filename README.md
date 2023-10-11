@@ -95,6 +95,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 ### **DASHBOARD E INSIGTHS**
 
 **Tasa de Fatalidad:** En este análisis, exploraremos la tasa de fatalidad de la tripulación en accidentes aéreos a lo largo de dos décadas, centrándonos en la disminución esperada del 10% en la tasa de fatalidad en la última década (2011-2020) en comparación con la década anterior (2001-2010).
+
 |Década|	crew_fatalities|	N°Accidentes|	Ratio_Fatalidades	|Disminución 10%|
 |----|----|----|----|---|
 |1901-1910|	0|	2|	0|	|
@@ -112,6 +113,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 |2021-2030|	20|	7|	2.857|	1|
 
 _Nota: Como se observa en la tabla solo hubo una reducción del 10% entre la década del 80 respecto a la década del 70._
+
 
 ![image](https://github.com/WilliamsAmaro/LAB02-HENRY/assets/131495435/1e77b0d9-c1a4-4dd8-81af-a767a4449d91)
 
