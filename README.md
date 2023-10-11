@@ -6,7 +6,7 @@ Para ello se presentan los siguientes objetivos:
 - KPI: Disminuir un 10% tasa de fatalidad.
 - KPI: Aumentar un 10% tasa de supervivencia
 
-Asimismo, a partir de los objetivos propuestos se dispone a relacionar los KPI con otra variables del dataset.
+Asimismo, a partir de los objetivos propuestos se dispone a relacionar los KPI con otra variables del [dataset](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/Accidentes.csv).
 
 Claro, puedo ayudarte con eso. Aquí está el significado de cada columna en tu conjunto de datos de accidentes aéreos:
 
@@ -29,7 +29,7 @@ Claro, puedo ayudarte con eso. Aquí está el significado de cada columna en tu 
 - summary: Un resumen o descripción del accidente.
 
 #### **ETL**
-En el notebook ETL, se observa la importación de dataset Accidentes como dataframe y se empieza a hacer una limpieza.
+En el notebook [ETL](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/ETL.ipynb), se observa la importación de dataset Accidentes como dataframe y se empieza a hacer una limpieza.
 
 **1. Objetivo:**
 - Visualizar la naturaleza de las variables (categóricas o numéricas).
@@ -46,7 +46,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 - Dummies (Military y Comercial): A partir de Operador se observó una tendencia (palabra: Military) y se dispuso a generar dummies de aquellos valores que continenen o no la palabra Military.
 
   #### **EDA**
-  En el notebook EDA, se observa el análisis exploratorio de las variables del dataset, a modo de obtener insights.
+  En el notebook [EDA](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/EDA.ipynb), se observa el análisis exploratorio de las variables del dataset, a modo de obtener insights.
 
   **1. Objetivo**
   - Vizualizar el tipo y comportamiento de las variables y entre variables (incluyendo frecuencia).
