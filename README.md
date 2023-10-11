@@ -95,6 +95,26 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 ### **DASHBOARD E INSIGTHS**
 
 **Tasa de Fatalidad:** En este análisis, exploraremos la tasa de fatalidad de la tripulación en accidentes aéreos a lo largo de dos décadas, centrándonos en la disminución esperada del 10% en la tasa de fatalidad en la última década (2011-2020) en comparación con la década anterior (2001-2010).
+|Decada|	crew_fatalities|	NumAccidentes|	Ratio_Crew_Fatalities	|Disminución 10%|
+|----|----|----|----|---|
+|1901-1910|	0|	2|	0|	|
+|1911-1920|	70|	49|	1.428|	0|
+|1921-1930|	312|	190|	1.642|	0|
+|1931-1940|	795|	359|	2.214|	0|
+|1941-1950|	2126|	626|	3.396|	0|
+|1951-1960|	2484|	651|	3.815|	0|
+|1961-1970|	2624|	648|	4.049|	0|
+|1971-1980|	2331|	584|	3.991|	0|
+|1981-1990|	1888|	569|	3.318|	1|
+|1991-2000|	2143|	633|	3.385|	0|
+|2001-2010|	1570|	484|	3.243|	0|
+|2011-2020|	759|	206|	3.684|	0|
+|2021-2030|	20|	7|	2.857|	1|
+_Nota: Como se observa en la tabla solo hubo una reducción del 10% entre la década del 80 respecto a la década del 70._
+
+![image](https://github.com/WilliamsAmaro/LAB02-HENRY/assets/131495435/1e77b0d9-c1a4-4dd8-81af-a767a4449d91)
+
+
 - Tasa de Fatalidad de la Tripulación a lo largo de las Décadas: La tasa de fatalidad de la tripulación, se calcula como el porcentaje de fatalidades de la tripulación con respecto al número total de miembros de la tripulación, es un indicador crítico en la seguridad de la aviación. En todas las décadas analizadas, esta tasa supera el 50%, lo que indica la gravedad de los accidentes aéreos.
 - Década de Referencia (2001-2010): Comenzamos nuestra evaluación considerando la década de 2001 a 2010. Durante este período, la tasa de fatalidad de la tripulación se mantuvo en un nivel significativo de 3.24. Esta cifra se utiliza como referencia para evaluar la década siguiente.
 - Década 2011-2020 (Expectativa de Reducción del 10%): Dentro de la década de 2011 a 2020, se esperaba una disminución del 10% en la tasa de fatalidad de la tripulación en comparación con la década anterior. Sin embargo, los datos revelan un aumento inesperado en esta métrica. La tasa de fatalidad de la tripulación para esta década ascendió a 3.68, lo que indica una tendencia preocupante.
