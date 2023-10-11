@@ -115,7 +115,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 _Nota: Como se observa en la tabla solo hubo una reducción del 10% entre la década del 80 respecto a la década del 70._
 
 
-![image](https://github.com/WilliamsAmaro/LAB02-HENRY/assets/131495435/1e77b0d9-c1a4-4dd8-81af-a767a4449d91)
+![image](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/KPI_1.png)
 
 
 - Tasa de Fatalidad de la Tripulación a lo largo de las Décadas: La tasa de fatalidad de la tripulación, se calcula como el porcentaje de fatalidades de la tripulación con respecto al número total de miembros de la tripulación, es un indicador crítico en la seguridad de la aviación. En todas las décadas analizadas, esta tasa supera el 50%, lo que indica la gravedad de los accidentes aéreos.
