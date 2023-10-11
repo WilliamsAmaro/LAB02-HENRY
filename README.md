@@ -61,8 +61,7 @@ Se creó las siguientes variables: Año, Decada, Valor Decada, Hora accidente, S
 
   Correlación:
 ![Imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/Correlaci%C3%B3n.png)
-  
-_La matriz de correlación muestra la relación entre las diferentes variables en nuestro conjunto de datos._
+  _La matriz de correlación muestra la relación entre las diferentes variables en nuestro conjunto de datos._
 - _Correlación Negativa entre Tripulantes Fallecidos y Vuelos Comerciales (-0.274762): Hay una correlación negativa entre la cantidad de tripulantes fallecidos y la categoría de vuelos comerciales. Esto podría indicar que los accidentes con tripulantes fallecidos tienden a estar menos relacionados con vuelos comerciales y podrían estar más asociados con operaciones militares u otros tipos de vuelos._
 - _Correlación Perfectamente Negativa entre Categorías Militares y Comerciales (-1.0): La matriz muestra una correlación perfectamente negativa entre las categorías de vuelos militares y comerciales, lo que significa que las observaciones se dividen claramente en dos categorías mutuamente excluyentes. Esto es importante para distinguir entre vuelos militares y comerciales en el análisis._
 - _Hora del Accidente con Correlación Muy Débil (0.015154): La hora del accidente tiene una correlación muy débil con las categorías de vuelos militares y comerciales. Esto indica que la hora del accidente no está fuertemente relacionada con el tipo de operación y, por lo tanto, es menos relevante en ese contexto._
@@ -72,4 +71,6 @@ _La matriz de correlación muestra la relación entre las diferentes variables e
   _Número de accidentes por año_
   ![Imagen](https://github.com/WilliamsAmaro/LAB02-HENRY/blob/main/AccidentesA%C3%B1o.png)
   _Nota: Se puede observar que la cantidad de accidentes alcanzan una frecuencia mayor en la década de 1940-1950, periodo que coincide con la 2da guerra mundial, asimismo, esta frecuencia se mantiene casi constante lo cual coincidiría con el periodo de la guerra fría._
-  
+
+  _Relación accidentes Militares y Comerciales_
+  ![]()
